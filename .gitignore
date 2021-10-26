@@ -1,0 +1,26 @@
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE files
+*.directory
+
+# Especific files
+*.tif
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# C extensions
+*.so
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo

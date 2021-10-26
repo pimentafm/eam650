@@ -1,0 +1,62 @@
+{
+ "regionExtent": [[[-43.4797680030015172, -20.3247664792152385],[-43.13041651144095, -20.3247664792152385],[-43.13041651144095, -20.1941671216190031], [-43.4797680030015172, -20.1941671216190031], [-43.4797680030015172, -20.3247664792152385]]],
+ "auxiliaryData": {
+ "samples": "users/fmp/amostras_barragem",
+ "hidrography": "users/fmp/hidro_wgs84",
+ "srtm": "USGS/SRTMGL1_003",
+ "VIIRS": {
+ 	"2010": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20120401",
+ 	"2011": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20120401",
+ 	"2012": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20120601",
+ 	"2013": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20130601",
+ 	"2014": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20140601",
+ 	"2015": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20150601",
+ 	"2016": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20160601",
+ 	"2017": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20170601",
+ 	"2018": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20180601",
+ 	"2019": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20190601",
+ 	"2020": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20200601"
+ }
+	},
+	"years2process": {
+ "startYear": 2010,
+ "endYear": 2021
+	},
+	"cloudCoverThreshold": 80,
+	"bandParams":["blue", "green", "red", "nir", "swir1", "swir2", "ndbi", "ndvi", "evi", "savi", "ndwil", "ndwiwb", "ratio", "brightness", "greenness", "wetness", "srtm", "slope", "aspect", "hillshade"],
+	"imgCollection": {
+ "lc5": {
+ 	"sr": "LANDSAT/LT05/C01/T1_SR",
+ 	"toa": "LANDSAT/LT05/C01/T1_TOA",
+ 	"bands": ["B1", "B2", "B3", "B4", "B5", "B7", "B6", "pixel_qa"],
+ 	"bandNames": ["blue", "green", "red", "nir", "swir1", "swir2", "thermal", "qa"]
+ },
+ "lc7": {
+ 	"sr": "LANDSAT/LE07/C01/T1_SR",
+ 	"toa": "LANDSAT/LE07/C01/T1_TOA",
+ 	"bands": ["B1", "B2", "B3", "B4", "B5", "B7", "B6", "pixel_qa"],
+ 	"bandNames": ["blue", "green", "red", "nir", "swir1", "swir2", "thermal", "qa"]
+ },
+ "lc8": {
+ 	"sr": "LANDSAT/LC08/C01/T1_SR",
+ 	"toa": "LANDSAT/LC08/C01/T1_TOA",
+ 	"bands": ["B2", "B3", "B4", "B5", "B6", "B7", "B10", "pixel_qa"],
+ 	"bandNames": ["blue", "green", "red", "nir", "swir1", "swir2", "thermal", "qa"]
+ }
+	},
+	"period": {
+ "dry": {
+ 	"start": "-04-01",
+ 	"end": "-09-01"
+ },
+ "rainy": {
+ 	"start": "-11-01",
+ 	"end": "-04-30"
+ }
+	},
+	"vizParams": {
+		"classification":{"min": 0.0, "max": 0.6, "palette": "#004000, #77a605, #b8af4f, #ffcaff, #ff42f9, #ff0000"}
+    }
+}
+
+
